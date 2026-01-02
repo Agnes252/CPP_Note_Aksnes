@@ -1,4 +1,0 @@
-﻿  ExcelImports.cpp
-D:\MyCode\CPP\Level9HW\9.E\9E_VS\ExcelImports.cpp(48,9): warning C4192: 导入类型库“IFont”时自动排除“C:\Program Files\Microsoft Office\root\Office16\EXCEL.EXE”
-D:\MyCode\CPP\Level9HW\9.E\9E_VS\ExcelImports.cpp(48,9): warning C4192: 导入类型库“IPicture”时自动排除“C:\Program Files\Microsoft Office\root\Office16\EXCEL.EXE”
-  9E_VS.vcxproj -> D:\MyCode\CPP\Level9HW\9.E\x64\Debug\9.E.exe
