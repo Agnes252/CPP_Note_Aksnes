@@ -1,0 +1,153 @@
+Perpetual American Option Prices
+
+B.b
+Use global functions to calculate perpetual American option prices: 
+Parameters (K,sigma,r,S,b): 100 0.1 0.1 110 0.02
+C = 18.5035, P = 3.03106
+Use instances of PerpetualAmeOption class to calculate option prices: 
+C = 18.5035, P = 3.03106
+
+B.c
+S = 10, C = 0.00826235, P = 9.03489e+06
+S = 11, C = 0.011227, P = 4.99557e+06
+S = 12, C = 0.0148535, P = 2.9084e+06
+S = 13, C = 0.0192158, P = 1.76823e+06
+S = 14, C = 0.0243891, P = 1.11544e+06
+S = 15, C = 0.03045, P = 726383
+S = 16, C = 0.0374762, P = 486308
+S = 17, C = 0.0455465, P = 333599
+S = 18, C = 0.054741, P = 233828
+S = 19, C = 0.0651405, P = 167076
+S = 20, C = 0.076827, P = 121457
+S = 21, C = 0.0898835, P = 89678.6
+S = 22, C = 0.104394, P = 67156
+S = 23, C = 0.120442, P = 50940.7
+S = 24, C = 0.138115, P = 39097.9
+S = 25, C = 0.157497, P = 30334.3
+S = 26, C = 0.178677, P = 23770.5
+S = 27, C = 0.201742, P = 18799.2
+S = 28, C = 0.226781, P = 14995
+S = 29, C = 0.253883, P = 12055.9
+S = 30, C = 0.283138, P = 9764.83
+S = 31, C = 0.314637, P = 7964.02
+S = 32, C = 0.348471, P = 6537.48
+S = 33, C = 0.384732, P = 5399.17
+S = 34, C = 0.423512, P = 4484.6
+S = 35, C = 0.464906, P = 3745.05
+S = 36, C = 0.509007, P = 3143.37
+S = 37, C = 0.555908, P = 2651.05
+S = 38, C = 0.605706, P = 2246.02
+S = 39, C = 0.658495, P = 1911.08
+S = 40, C = 0.714373, P = 1632.76
+S = 41, C = 0.773434, P = 1400.4
+S = 42, C = 0.835777, P = 1205.56
+S = 43, C = 0.901499, P = 1041.49
+S = 44, C = 0.970699, P = 902.784
+S = 45, C = 1.04347, P = 785.068
+S = 46, C = 1.11993, P = 684.8
+S = 47, C = 1.20015, P = 599.097
+S = 48, C = 1.28425, P = 525.597
+S = 49, C = 1.37233, P = 462.36
+S = 50, C = 1.46448, P = 407.787
+
+B.d
+Input a matrix of option parameters and receive a matrix of option prices.
+Batch 1: C = 60, P = 12.2024
+Batch 2: C = 100, P = 100
+Batch 3: C = 5, P = 5.00204
+Batch 4: C = 100, P = 16.283
+
+Compute for a range of S:
+S = 10: C = 0.00826235
+S = 11: C = 0.011227
+S = 12: C = 0.0148535
+S = 13: C = 0.0192158
+S = 14: C = 0.0243891
+S = 15: C = 0.03045
+S = 16: C = 0.0374762
+S = 17: C = 0.0455465
+S = 18: C = 0.054741
+S = 19: C = 0.0651405
+S = 20: C = 0.076827
+S = 21: C = 0.0898835
+S = 22: C = 0.104394
+S = 23: C = 0.120442
+S = 24: C = 0.138115
+S = 25: C = 0.157497
+S = 26: C = 0.178677
+S = 27: C = 0.201742
+S = 28: C = 0.226781
+S = 29: C = 0.253883
+S = 30: C = 0.283138
+S = 31: C = 0.314637
+S = 32: C = 0.348471
+S = 33: C = 0.384732
+S = 34: C = 0.423512
+S = 35: C = 0.464906
+S = 36: C = 0.509007
+S = 37: C = 0.555908
+S = 38: C = 0.605706
+S = 39: C = 0.658495
+S = 40: C = 0.714373
+S = 41: C = 0.773434
+S = 42: C = 0.835777
+S = 43: C = 0.901499
+S = 44: C = 0.970699
+S = 45: C = 1.04347
+S = 46: C = 1.11993
+S = 47: C = 1.20015
+S = 48: C = 1.28425
+S = 49: C = 1.37233
+S = 50: C = 1.46448
+
+B.e
+Use divided differences to approximate option sensitivities.
+
+[ h = 0.01 ]
+Single-point calculation:
+Perpetual call delta (divided diff) = 0.541142, Perpetual put delta (divided diff) = -0.17131
+Perpetual call gamma (divided diff) = 0.0109064, Perpetual put gamma (divided diff) = 0.0112395
+
+Compute for a range of S:
+S = 10, Call delta (divided diff) = 0.00265799, Put delta (divided diff) = -5.61704e+06
+S = 11, Call delta (divided diff) = 0.00328338, Put delta (divided diff) = -2.82342e+06
+S = 12, Call delta (divided diff) = 0.00398196, Put delta (divided diff) = -1.5068e+06
+S = 13, Call delta (divided diff) = 0.00475516, Put delta (divided diff) = -845625
+S = 14, Call delta (divided diff) = 0.00560425, Put delta (divided diff) = -495337
+S = 15, Call delta (divided diff) = 0.00653049, Put delta (divided diff) = -301062
+S = 16, Call delta (divided diff) = 0.00753504, Put delta (divided diff) = -188961
+S = 17, Call delta (divided diff) = 0.00861899, Put delta (divided diff) = -121999
+S = 18, Call delta (divided diff) = 0.0097834, Put delta (divided diff) = -80761.7
+S = 19, Call delta (divided diff) = 0.0110293, Put delta (divided diff) = -54669.2
+S = 20, Call delta (divided diff) = 0.0123576, Put delta (divided diff) = -37754.9
+S = 21, Call delta (divided diff) = 0.0137693, Put delta (divided diff) = -26549.2
+S = 22, Call delta (divided diff) = 0.0152652, Put delta (divided diff) = -18977.7
+S = 23, Call delta (divided diff) = 0.0168461, Put delta (divided diff) = -13769.5
+S = 24, Call delta (divided diff) = 0.0185131, Put delta (divided diff) = -10128
+S = 25, Call delta (divided diff) = 0.0202667, Put delta (divided diff) = -7543.53
+S = 26, Call delta (divided diff) = 0.0221078, Put delta (divided diff) = -5683.88
+S = 27, Call delta (divided diff) = 0.0240371, Put delta (divided diff) = -4328.68
+S = 28, Call delta (divided diff) = 0.0260554, Put delta (divided diff) = -3329.42
+S = 29, Call delta (divided diff) = 0.0281634, Put delta (divided diff) = -2584.53
+S = 30, Call delta (divided diff) = 0.0303617, Put delta (divided diff) = -2023.6
+S = 31, Call delta (divided diff) = 0.0326511, Put delta (divided diff) = -1597.17
+S = 32, Call delta (divided diff) = 0.0350321, Put delta (divided diff) = -1270.11
+S = 33, Call delta (divided diff) = 0.0375054, Put delta (divided diff) = -1017.17
+S = 34, Call delta (divided diff) = 0.0400716, Put delta (divided diff) = -820.022
+S = 35, Call delta (divided diff) = 0.0427314, Put delta (divided diff) = -665.227
+S = 36, Call delta (divided diff) = 0.0454853, Put delta (divided diff) = -542.842
+S = 37, Call delta (divided diff) = 0.0483338, Put delta (divided diff) = -445.448
+S = 38, Call delta (divided diff) = 0.0512776, Put delta (divided diff) = -367.461
+S = 39, Call delta (divided diff) = 0.0543173, Put delta (divided diff) = -304.646
+S = 40, Call delta (divided diff) = 0.0574532, Put delta (divided diff) = -253.771
+S = 41, Call delta (divided diff) = 0.0606861, Put delta (divided diff) = -212.348
+S = 42, Call delta (divided diff) = 0.0640164, Put delta (divided diff) = -178.451
+S = 43, Call delta (divided diff) = 0.0674445, Put delta (divided diff) = -150.58
+S = 44, Call delta (divided diff) = 0.0709711, Put delta (divided diff) = -127.559
+S = 45, Call delta (divided diff) = 0.0745966, Put delta (divided diff) = -108.461
+S = 46, Call delta (divided diff) = 0.0783215, Put delta (divided diff) = -92.5521
+S = 47, Call delta (divided diff) = 0.0821463, Put delta (divided diff) = -79.2464
+S = 48, Call delta (divided diff) = 0.0860714, Put delta (divided diff) = -68.0757
+S = 49, Call delta (divided diff) = 0.0900972, Put delta (divided diff) = -58.6631
+S = 50, Call delta (divided diff) = 0.0942243, Put delta (divided diff) = -50.7042
+End of outputB.txt

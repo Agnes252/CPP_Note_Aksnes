@@ -1,0 +1,653 @@
+European Option Prices and Greeks
+Part 1: Option Prices
+[ Batch 1 ]
+A.1.a
+Use global functions to calculate option prices: 
+Parameters (T,K,sigma,r,S):1.65 122 0.43 0.045 102
+Batch 1: C = 18.1941, P = 29.4637
+Use instances of EuroOption class to calculate option prices: 
+Batch 1: C = 18.1941, P = 29.4637
+
+A.1.b
+Use put-call parity to calculate option prices, then check the parity.
+Batch 1:
+C = 18.1941, P = 29.4637
+Check parity: 1
+
+A.1.c
+Batch 1: S = 10, C = 2.07897e-05, P = 103.27
+Batch 1: S = 11, C = 4.92113e-05, P = 102.27
+Batch 1: S = 12, C = 0.000105507, P = 101.27
+Batch 1: S = 13, C = 0.00020856, P = 100.27
+Batch 1: S = 14, C = 0.000385306, P = 99.27
+Batch 1: S = 15, C = 0.000672338, P = 98.2703
+Batch 1: S = 16, C = 0.00111739, P = 97.2707
+Batch 1: S = 17, C = 0.00178062, P = 96.2714
+Batch 1: S = 18, C = 0.0027357, P = 95.2724
+Batch 1: S = 19, C = 0.00407057, P = 94.2737
+Batch 1: S = 20, C = 0.00588796, P = 93.2755
+Batch 1: S = 21, C = 0.00830566, P = 92.2779
+Batch 1: S = 22, C = 0.0114564, P = 91.2811
+Batch 1: S = 23, C = 0.0154878, P = 90.2851
+Batch 1: S = 24, C = 0.0205614, P = 89.2902
+Batch 1: S = 25, C = 0.0268525, P = 88.2965
+Batch 1: S = 26, C = 0.0345489, P = 87.3042
+Batch 1: S = 27, C = 0.0438502, P = 86.3135
+Batch 1: S = 28, C = 0.0549662, P = 85.3246
+Batch 1: S = 29, C = 0.0681165, P = 84.3377
+Batch 1: S = 30, C = 0.0835285, P = 83.3532
+Batch 1: S = 31, C = 0.101437, P = 82.3711
+Batch 1: S = 32, C = 0.122081, P = 81.3917
+Batch 1: S = 33, C = 0.145705, P = 80.4153
+Batch 1: S = 34, C = 0.172558, P = 79.4422
+Batch 1: S = 35, C = 0.202887, P = 78.4725
+Batch 1: S = 36, C = 0.236944, P = 77.5066
+Batch 1: S = 37, C = 0.274977, P = 76.5446
+Batch 1: S = 38, C = 0.317236, P = 75.5869
+Batch 1: S = 39, C = 0.363966, P = 74.6336
+Batch 1: S = 40, C = 0.415411, P = 73.685
+Batch 1: S = 41, C = 0.47181, P = 72.7414
+Batch 1: S = 42, C = 0.533396, P = 71.803
+Batch 1: S = 43, C = 0.600399, P = 70.87
+Batch 1: S = 44, C = 0.673041, P = 69.9427
+Batch 1: S = 45, C = 0.751538, P = 69.0212
+Batch 1: S = 46, C = 0.8361, P = 68.1057
+Batch 1: S = 47, C = 0.92693, P = 67.1966
+Batch 1: S = 48, C = 1.02422, P = 66.2938
+Batch 1: S = 49, C = 1.12816, P = 65.3978
+Batch 1: S = 50, C = 1.23892, P = 64.5085
+
+[ Batch 2 ]
+A.1.a
+Use global functions to calculate option prices: 
+Parameters (T,K,sigma,r,S):1 100 0.2 0 100
+Batch 2: C = 7.96557, P = 7.96557
+Use instances of EuroOption class to calculate option prices: 
+Batch 2: C = 7.96557, P = 7.96557
+
+A.1.b
+Use put-call parity to calculate option prices, then check the parity.
+Batch 2:
+C = 7.96557, P = 7.96557
+Check parity: 1
+
+A.1.c
+Batch 2: S = 10, C = 3.05867e-31, P = 90
+Batch 2: S = 11, C = 7.50875e-29, P = 89
+Batch 2: S = 12, C = 9.39062e-27, P = 88
+Batch 2: S = 13, C = 6.76817e-25, P = 87
+Batch 2: S = 14, C = 3.08735e-23, P = 86
+Batch 2: S = 15, C = 9.58525e-22, P = 85
+Batch 2: S = 16, C = 2.14514e-20, P = 84
+Batch 2: S = 17, C = 3.62362e-19, P = 83
+Batch 2: S = 18, C = 4.79653e-18, P = 82
+Batch 2: S = 19, C = 5.13087e-17, P = 81
+Batch 2: S = 20, C = 4.55058e-16, P = 80
+Batch 2: S = 21, C = 3.41899e-15, P = 79
+Batch 2: S = 22, C = 2.21616e-14, P = 78
+Batch 2: S = 23, C = 1.25872e-13, P = 77
+Batch 2: S = 24, C = 6.34869e-13, P = 76
+Batch 2: S = 25, C = 2.87668e-12, P = 75
+Batch 2: S = 26, C = 1.18282e-11, P = 74
+Batch 2: S = 27, C = 4.45231e-11, P = 73
+Batch 2: S = 28, C = 1.54615e-10, P = 72
+Batch 2: S = 29, C = 4.98755e-10, P = 71
+Batch 2: S = 30, C = 1.50356e-09, P = 70
+Batch 2: S = 31, C = 4.25893e-09, P = 69
+Batch 2: S = 32, C = 1.13899e-08, P = 68
+Batch 2: S = 33, C = 2.8884e-08, P = 67
+Batch 2: S = 34, C = 6.97279e-08, P = 66
+Batch 2: S = 35, C = 1.60803e-07, P = 65
+Batch 2: S = 36, C = 3.5539e-07, P = 64
+Batch 2: S = 37, C = 7.54907e-07, P = 63
+Batch 2: S = 38, C = 1.54526e-06, P = 62
+Batch 2: S = 39, C = 3.05545e-06, P = 61
+Batch 2: S = 40, C = 5.84877e-06, P = 60
+Batch 2: S = 41, C = 1.08604e-05, P = 59
+Batch 2: S = 42, C = 1.95985e-05, P = 58
+Batch 2: S = 43, C = 3.44297e-05, P = 57
+Batch 2: S = 44, C = 5.89738e-05, P = 56.0001
+Batch 2: S = 45, C = 9.8635e-05, P = 55.0001
+Batch 2: S = 46, C = 0.000161299, P = 54.0002
+Batch 2: S = 47, C = 0.000258226, P = 53.0003
+Batch 2: S = 48, C = 0.000405172, P = 52.0004
+Batch 2: S = 49, C = 0.000623757, P = 51.0006
+Batch 2: S = 50, C = 0.000943109, P = 50.0009
+
+[ Batch 3 ]
+A.1.a
+Use global functions to calculate option prices: 
+Parameters (T,K,sigma,r,S):1 10 0.5 0.12 5
+Batch 3: C = 0.204058, P = 4.07326
+Use instances of EuroOption class to calculate option prices: 
+Batch 3: C = 0.204058, P = 4.07326
+
+A.1.b
+Use put-call parity to calculate option prices, then check the parity.
+Batch 3:
+C = 0.204058, P = 4.07326
+Check parity: 1
+
+A.1.c
+Batch 3: S = 10, C = 2.48011, P = 1.34932
+Batch 3: S = 11, C = 3.20115, P = 1.07036
+Batch 3: S = 12, C = 3.97989, P = 0.849091
+Batch 3: S = 13, C = 4.80493, P = 0.674134
+Batch 3: S = 14, C = 5.6668, P = 0.536003
+Batch 3: S = 15, C = 6.55778, P = 0.426982
+Batch 3: S = 16, C = 7.47169, P = 0.340889
+Batch 3: S = 17, C = 8.40362, P = 0.272821
+Batch 3: S = 18, C = 9.34971, P = 0.218913
+Batch 3: S = 19, C = 10.3069, P = 0.176132
+Batch 3: S = 20, C = 11.2729, P = 0.142104
+Batch 3: S = 21, C = 12.2458, P = 0.114972
+Batch 3: S = 22, C = 13.2241, P = 0.0932814
+Batch 3: S = 23, C = 14.2067, P = 0.0758952
+Batch 3: S = 24, C = 15.1927, P = 0.0619213
+Batch 3: S = 25, C = 16.1815, P = 0.050659
+Batch 3: S = 26, C = 17.1724, P = 0.0415573
+Batch 3: S = 27, C = 18.165, P = 0.0341815
+Batch 3: S = 28, C = 19.159, P = 0.0281882
+Batch 3: S = 29, C = 20.1541, P = 0.0233052
+Batch 3: S = 30, C = 21.1501, P = 0.0193162
+Batch 3: S = 31, C = 22.1468, P = 0.0160492
+Batch 3: S = 32, C = 23.1442, P = 0.0133667
+Batch 3: S = 33, C = 24.142, P = 0.0111585
+Batch 3: S = 34, C = 25.1401, P = 0.00933635
+Batch 3: S = 35, C = 26.1386, P = 0.00782914
+Batch 3: S = 36, C = 27.1374, P = 0.0065795
+Batch 3: S = 37, C = 28.1363, P = 0.00554104
+Batch 3: S = 38, C = 29.1355, P = 0.00467613
+Batch 3: S = 39, C = 30.1347, P = 0.00395419
+Batch 3: S = 40, C = 31.1341, P = 0.00335029
+Batch 3: S = 41, C = 32.1336, P = 0.00284408
+Batch 3: S = 42, C = 33.1332, P = 0.00241887
+Batch 3: S = 43, C = 34.1329, P = 0.00206101
+Batch 3: S = 44, C = 35.1326, P = 0.00175922
+Batch 3: S = 45, C = 36.1323, P = 0.00150425
+Batch 3: S = 46, C = 37.1321, P = 0.00128842
+Batch 3: S = 47, C = 38.1319, P = 0.00110539
+Batch 3: S = 48, C = 39.1317, P = 0.000949906
+Batch 3: S = 49, C = 40.1316, P = 0.000817588
+Batch 3: S = 50, C = 41.1315, P = 0.000704793
+
+[ Batch 4 ]
+A.1.a
+Use global functions to calculate option prices: 
+Parameters (T,K,sigma,r,S):30 100 0.3 0.08 100
+Batch 4: C = 92.1757, P = 1.2475
+Use instances of EuroOption class to calculate option prices: 
+Batch 4: C = 92.1757, P = 1.2475
+
+A.1.b
+Use put-call parity to calculate option prices, then check the parity.
+Batch 4:
+C = 92.1757, P = 1.2475
+Check parity: 1
+
+A.1.c
+Batch 4: S = 10, C = 6.08558, P = 5.15738
+Batch 4: S = 11, C = 6.90422, P = 4.97602
+Batch 4: S = 12, C = 7.73711, P = 4.8089
+Batch 4: S = 13, C = 8.58239, P = 4.65419
+Batch 4: S = 14, C = 9.43856, P = 4.51036
+Batch 4: S = 15, C = 10.3044, P = 4.37617
+Batch 4: S = 16, C = 11.1788, P = 4.25056
+Batch 4: S = 17, C = 12.0608, P = 4.13264
+Batch 4: S = 18, C = 12.9499, P = 4.02165
+Batch 4: S = 19, C = 13.8451, P = 3.91694
+Batch 4: S = 20, C = 14.7461, P = 3.81792
+Batch 4: S = 21, C = 15.6523, P = 3.72411
+Batch 4: S = 22, C = 16.5633, P = 3.63506
+Batch 4: S = 23, C = 17.4786, P = 3.55038
+Batch 4: S = 24, C = 18.3979, P = 3.46974
+Batch 4: S = 25, C = 19.321, P = 3.39282
+Batch 4: S = 26, C = 20.2476, P = 3.31936
+Batch 4: S = 27, C = 21.1773, P = 3.24911
+Batch 4: S = 28, C = 22.11, P = 3.18184
+Batch 4: S = 29, C = 23.0456, P = 3.11735
+Batch 4: S = 30, C = 23.9837, P = 3.05547
+Batch 4: S = 31, C = 24.9242, P = 2.99603
+Batch 4: S = 32, C = 25.8671, P = 2.93888
+Batch 4: S = 33, C = 26.8121, P = 2.88387
+Batch 4: S = 34, C = 27.7591, P = 2.83088
+Batch 4: S = 35, C = 28.708, P = 2.7798
+Batch 4: S = 36, C = 29.6587, P = 2.73052
+Batch 4: S = 37, C = 30.6111, P = 2.68294
+Batch 4: S = 38, C = 31.5652, P = 2.63697
+Batch 4: S = 39, C = 32.5207, P = 2.59252
+Batch 4: S = 40, C = 33.4777, P = 2.54952
+Batch 4: S = 41, C = 34.4361, P = 2.50789
+Batch 4: S = 42, C = 35.3958, P = 2.46756
+Batch 4: S = 43, C = 36.3567, P = 2.42848
+Batch 4: S = 44, C = 37.3188, P = 2.39057
+Batch 4: S = 45, C = 38.282, P = 2.3538
+Batch 4: S = 46, C = 39.2463, P = 2.3181
+Batch 4: S = 47, C = 40.2116, P = 2.28342
+Batch 4: S = 48, C = 41.1779, P = 2.24973
+Batch 4: S = 49, C = 42.1452, P = 2.21698
+Batch 4: S = 50, C = 43.1133, P = 2.18512
+
+A.1.d
+Input a matrix of option parameters and receive a matrix of option prices.
+Batch 1: C = 2.13337
+Batch 2: C = 7.96557
+Batch 3: C = 0.204058
+Batch 4: C = 92.1757
+
+
+
+Part 2: Option Greeks
+A.2.a
+Calculate future option delta and gamma. 
+Future call delta = 0.446452, Future put delta = -0.481987
+Future call gamma = 0.00656679, Future put gamma = 0.00656679
+
+A.2.b
+Calculate future call delta price for a monotonically increasing range of S.
+S = 10, Future call delta = 9.8098e-06, Future put delta = -0.92843
+S = 11, Future call delta = 2.09039e-05, Future put delta = -0.928419
+S = 12, Future call delta = 4.06823e-05, Future put delta = -0.928399
+S = 13, Future call delta = 7.35127e-05, Future put delta = -0.928366
+S = 14, Future call delta = 0.000124897, Future put delta = -0.928315
+S = 15, Future call delta = 0.000201465, Future put delta = -0.928238
+S = 16, Future call delta = 0.000310925, Future put delta = -0.928129
+S = 17, Future call delta = 0.000461957, Future put delta = -0.927978
+S = 18, Future call delta = 0.000664083, Future put delta = -0.927775
+S = 19, Future call delta = 0.000927505, Future put delta = -0.927512
+S = 20, Future call delta = 0.00126293, Future put delta = -0.927177
+S = 21, Future call delta = 0.0016814, Future put delta = -0.926758
+S = 22, Future call delta = 0.0021941, Future put delta = -0.926245
+S = 23, Future call delta = 0.00281218, Future put delta = -0.925627
+S = 24, Future call delta = 0.00354662, Future put delta = -0.924893
+S = 25, Future call delta = 0.00440807, Future put delta = -0.924031
+S = 26, Future call delta = 0.00540672, Future put delta = -0.923033
+S = 27, Future call delta = 0.00655218, Future put delta = -0.921887
+S = 28, Future call delta = 0.00785343, Future put delta = -0.920586
+S = 29, Future call delta = 0.00931867, Future put delta = -0.919121
+S = 30, Future call delta = 0.0109554, Future put delta = -0.917484
+S = 31, Future call delta = 0.0127701, Future put delta = -0.915669
+S = 32, Future call delta = 0.0147686, Future put delta = -0.913671
+S = 33, Future call delta = 0.0169557, Future put delta = -0.911484
+S = 34, Future call delta = 0.0193355, Future put delta = -0.909104
+S = 35, Future call delta = 0.0219111, Future put delta = -0.906528
+S = 36, Future call delta = 0.0246847, Future put delta = -0.903755
+S = 37, Future call delta = 0.0276578, Future put delta = -0.900782
+S = 38, Future call delta = 0.030831, Future put delta = -0.897609
+S = 39, Future call delta = 0.0342044, Future put delta = -0.894235
+S = 40, Future call delta = 0.037777, Future put delta = -0.890663
+S = 41, Future call delta = 0.0415474, Future put delta = -0.886892
+S = 42, Future call delta = 0.0455134, Future put delta = -0.882926
+S = 43, Future call delta = 0.0496725, Future put delta = -0.878767
+S = 44, Future call delta = 0.0540212, Future put delta = -0.874418
+S = 45, Future call delta = 0.058556, Future put delta = -0.869884
+S = 46, Future call delta = 0.0632727, Future put delta = -0.865167
+S = 47, Future call delta = 0.0681666, Future put delta = -0.860273
+S = 48, Future call delta = 0.0732329, Future put delta = -0.855207
+S = 49, Future call delta = 0.0784663, Future put delta = -0.849973
+S = 50, Future call delta = 0.0838613, Future put delta = -0.844578
+
+A.2.c
+Input a matrix of option parameters and receive a matrix of Greeks as the result.
+S = 10: Call Delta = 2.25551e-19
+S = 11: Call Delta = 6.18174e-18
+S = 12: Call Delta = 1.12536e-16
+S = 13: Call Delta = 1.46673e-15
+S = 14: Call Delta = 1.44882e-14
+S = 15: Call Delta = 1.1336e-13
+S = 16: Call Delta = 7.27491e-13
+S = 17: Call Delta = 3.93787e-12
+S = 18: Call Delta = 1.83921e-11
+S = 19: Call Delta = 7.55191e-11
+S = 20: Call Delta = 2.76878e-10
+S = 21: Call Delta = 9.18317e-10
+S = 22: Call Delta = 2.78591e-09
+S = 23: Call Delta = 7.80377e-09
+S = 24: Call Delta = 2.0348e-08
+S = 25: Call Delta = 4.97346e-08
+S = 26: Call Delta = 1.14647e-07
+S = 27: Call Delta = 2.50577e-07
+S = 28: Call Delta = 5.21714e-07
+S = 29: Call Delta = 1.03903e-06
+S = 30: Call Delta = 1.98667e-06
+S = 31: Call Delta = 3.65877e-06
+S = 32: Call Delta = 6.5092e-06
+S = 33: Call Delta = 1.1216e-05
+S = 34: Call Delta = 1.87624e-05
+S = 35: Call Delta = 3.05351e-05
+S = 36: Call Delta = 4.84406e-05
+S = 37: Call Delta = 7.50367e-05
+S = 38: Call Delta = 0.00011368
+S = 39: Call Delta = 0.000168682
+S = 40: Call Delta = 0.000245471
+S = 41: Call Delta = 0.000350761
+S = 42: Call Delta = 0.000492699
+S = 43: Call Delta = 0.000681019
+S = 44: Call Delta = 0.000927157
+S = 45: Call Delta = 0.00124435
+S = 46: Call Delta = 0.00164771
+S = 47: Call Delta = 0.00215423
+S = 48: Call Delta = 0.00278276
+S = 49: Call Delta = 0.00355398
+S = 50: Call Delta = 0.00449025
+
+S = 10: Call Gamma = 7.99889e-19
+S = 11: Call Gamma = 1.91133e-17
+S = 12: Call Gamma = 3.06528e-16
+S = 13: Call Gamma = 3.5504e-15
+S = 14: Call Gamma = 3.13999e-14
+S = 15: Call Gamma = 2.21388e-13
+S = 16: Call Gamma = 1.28747e-12
+S = 17: Call Gamma = 6.34636e-12
+S = 18: Call Gamma = 2.71108e-11
+S = 19: Call Gamma = 1.02212e-10
+S = 20: Call Gamma = 3.4529e-10
+S = 21: Call Gamma = 1.05853e-09
+S = 22: Call Gamma = 2.97663e-09
+S = 23: Call Gamma = 7.74877e-09
+S = 24: Call Gamma = 1.88211e-08
+S = 25: Call Gamma = 4.29453e-08
+S = 26: Call Gamma = 9.26003e-08
+S = 27: Call Gamma = 1.89662e-07
+S = 28: Call Gamma = 3.70674e-07
+S = 29: Call Gamma = 6.94045e-07
+S = 30: Call Gamma = 1.24942e-06
+S = 31: Call Gamma = 2.16936e-06
+S = 32: Call Gamma = 3.64316e-06
+S = 33: Call Gamma = 5.93265e-06
+S = 34: Call Gamma = 9.38929e-06
+S = 35: Call Gamma = 1.44717e-05
+S = 36: Call Gamma = 2.1763e-05
+S = 37: Call Gamma = 3.19861e-05
+S = 38: Call Gamma = 4.60161e-05
+S = 39: Call Gamma = 6.48894e-05
+S = 40: Call Gamma = 8.98063e-05
+S = 41: Call Gamma = 0.000122128
+S = 42: Call Gamma = 0.000163369
+S = 43: Call Gamma = 0.000215175
+S = 44: Call Gamma = 0.000279307
+S = 45: Call Gamma = 0.000357603
+S = 46: Call Gamma = 0.000451947
+S = 47: Call Gamma = 0.000564227
+S = 48: Call Gamma = 0.000696287
+S = 49: Call Gamma = 0.000849884
+S = 50: Call Gamma = 0.00102664
+
+A.2.d
+Calculate future option delta and gamma using divided differences.
+Difference threshold : 1e-12
+
+[ h = 0.1 ]
+Single-point calculation:
+Future call delta (exact) = 0.594629, (divided diff) = 0.594628, difference = 4.82543e-07
+Future put delta (exact) = -0.356601, (divided diff) = -0.356601, difference = 4.82543e-07
+Future call gamma (exact) = 0.0134936, (divided diff) = 0.0134936, difference = 8.26228e-09
+Future put gamma (exact) = 0.0134936, (divided diff) = 0.0134936, difference = 8.26441e-09
+
+Compute for a range of S:
+S = 10, Call delta exact = 2.25551e-19, Call delta diff = 2.30111e-19, difference smaller than threshold
+S = 10, Put delta exact = -0.951229, Put delta diff = -0.951229, difference smaller than threshold
+S = 11, Call delta exact = 6.18174e-18, Call delta diff = 6.2764e-18, difference smaller than threshold
+S = 11, Put delta exact = -0.951229, Put delta diff = -0.951229, difference smaller than threshold
+S = 12, Call delta exact = 1.12536e-16, Call delta diff = 1.13869e-16, difference smaller than threshold
+S = 12, Put delta exact = -0.951229, Put delta diff = -0.951229, difference smaller than threshold
+S = 13, Call delta exact = 1.46673e-15, Call delta diff = 1.48041e-15, difference smaller than threshold
+S = 13, Put delta exact = -0.951229, Put delta diff = -0.951229, difference smaller than threshold
+S = 14, Call delta exact = 1.44882e-14, Call delta diff = 1.45962e-14, difference smaller than threshold
+S = 14, Put delta exact = -0.951229, Put delta diff = -0.951229, difference smaller than threshold
+S = 15, Call delta exact = 1.1336e-13, Call delta diff = 1.14044e-13, difference smaller than threshold
+S = 15, Put delta exact = -0.951229, Put delta diff = -0.951229, difference smaller than threshold
+S = 16, Call delta exact = 7.27491e-13, Call delta diff = 7.31087e-13, difference smaller than threshold
+S = 16, Put delta exact = -0.951229, Put delta diff = -0.951229, difference smaller than threshold
+S = 17, Call delta exact = 3.93787e-12, Call delta diff = 3.95397e-12, difference smaller than threshold
+S = 17, Put delta exact = -0.951229, Put delta diff = -0.951229, difference smaller than threshold
+S = 18, Call delta exact = 1.83921e-11, Call delta diff = 1.84548e-11, difference smaller than threshold
+S = 18, Put delta exact = -0.951229, Put delta diff = -0.951229, difference smaller than threshold
+S = 19, Call delta exact = 7.55191e-11, Call delta diff = 7.57356e-11, difference smaller than threshold
+S = 19, Put delta exact = -0.951229, Put delta diff = -0.951229, difference smaller than threshold
+S = 20, Call delta exact = 2.76878e-10, Call delta diff = 2.7755e-10, difference smaller than threshold
+S = 20, Put delta exact = -0.951229, Put delta diff = -0.951229, difference smaller than threshold
+S = 21, Call delta exact = 9.18317e-10, Call delta diff = 9.20215e-10, difference = 1.89815e-12
+S = 21, Put delta exact = -0.951229, Put delta diff = -0.951229, difference = 1.86839e-12
+S = 22, Call delta exact = 2.78591e-09, Call delta diff = 2.79084e-09, difference = 4.93276e-12
+S = 22, Put delta exact = -0.951229, Put delta diff = -0.951229, difference = 4.85012e-12
+S = 23, Call delta exact = 7.80377e-09, Call delta diff = 7.81567e-09, difference = 1.18966e-11
+S = 23, Put delta exact = -0.951229, Put delta diff = -0.951229, difference = 1.18754e-11
+S = 24, Call delta exact = 2.0348e-08, Call delta diff = 2.03748e-08, difference = 2.68319e-11
+S = 24, Put delta exact = -0.951229, Put delta diff = -0.951229, difference = 2.67125e-11
+S = 25, Call delta exact = 4.97346e-08, Call delta diff = 4.97916e-08, difference = 5.69687e-11
+S = 25, Put delta exact = -0.951229, Put delta diff = -0.951229, difference = 5.69903e-11
+S = 26, Call delta exact = 1.14647e-07, Call delta diff = 1.14761e-07, difference = 1.14516e-10
+S = 26, Put delta exact = -0.951229, Put delta diff = -0.951229, difference = 1.14535e-10
+S = 27, Call delta exact = 2.50577e-07, Call delta diff = 2.50796e-07, difference = 2.19036e-10
+S = 27, Put delta exact = -0.951229, Put delta diff = -0.951229, difference = 2.18966e-10
+S = 28, Call delta exact = 5.21714e-07, Call delta diff = 5.22114e-07, difference = 4.00399e-10
+S = 28, Put delta exact = -0.951229, Put delta diff = -0.951229, difference = 4.00392e-10
+S = 29, Call delta exact = 1.03903e-06, Call delta diff = 1.03974e-06, difference = 7.02232e-10
+S = 29, Put delta exact = -0.951228, Put delta diff = -0.951228, difference = 7.022e-10
+S = 30, Call delta exact = 1.98667e-06, Call delta diff = 1.98785e-06, difference = 1.18568e-09
+S = 30, Put delta exact = -0.951227, Put delta diff = -0.951227, difference = 1.18569e-09
+S = 31, Call delta exact = 3.65877e-06, Call delta diff = 3.66071e-06, difference = 1.93322e-09
+S = 31, Put delta exact = -0.951226, Put delta diff = -0.951226, difference = 1.9332e-09
+S = 32, Call delta exact = 6.5092e-06, Call delta diff = 6.51225e-06, difference = 3.05213e-09
+S = 32, Put delta exact = -0.951223, Put delta diff = -0.951223, difference = 3.0522e-09
+S = 33, Call delta exact = 1.1216e-05, Call delta diff = 1.12207e-05, difference = 4.67724e-09
+S = 33, Put delta exact = -0.951218, Put delta diff = -0.951218, difference = 4.67723e-09
+S = 34, Call delta exact = 1.87624e-05, Call delta diff = 1.87693e-05, difference = 6.97257e-09
+S = 34, Put delta exact = -0.951211, Put delta diff = -0.951211, difference = 6.97255e-09
+S = 35, Call delta exact = 3.05351e-05, Call delta diff = 3.05452e-05, difference = 1.01314e-08
+S = 35, Put delta exact = -0.951199, Put delta diff = -0.951199, difference = 1.01314e-08
+S = 36, Call delta exact = 4.84406e-05, Call delta diff = 4.84549e-05, difference = 1.43746e-08
+S = 36, Put delta exact = -0.951181, Put delta diff = -0.951181, difference = 1.43746e-08
+S = 37, Call delta exact = 7.50367e-05, Call delta diff = 7.50567e-05, difference = 1.99466e-08
+S = 37, Put delta exact = -0.951154, Put delta diff = -0.951154, difference = 1.99465e-08
+S = 38, Call delta exact = 0.00011368, Call delta diff = 0.000113707, difference = 2.71098e-08
+S = 38, Put delta exact = -0.951116, Put delta diff = -0.951116, difference = 2.71097e-08
+S = 39, Call delta exact = 0.000168682, Call delta diff = 0.000168718, difference = 3.61367e-08
+S = 39, Put delta exact = -0.951061, Put delta diff = -0.951061, difference = 3.61367e-08
+S = 40, Call delta exact = 0.000245471, Call delta diff = 0.000245519, difference = 4.73003e-08
+S = 40, Put delta exact = -0.950984, Put delta diff = -0.950984, difference = 4.73003e-08
+S = 41, Call delta exact = 0.000350761, Call delta diff = 0.000350822, difference = 6.08631e-08
+S = 41, Put delta exact = -0.950879, Put delta diff = -0.950879, difference = 6.0863e-08
+S = 42, Call delta exact = 0.000492699, Call delta diff = 0.000492776, difference = 7.70657e-08
+S = 42, Put delta exact = -0.950737, Put delta diff = -0.950737, difference = 7.70656e-08
+S = 43, Call delta exact = 0.000681019, Call delta diff = 0.000681115, difference = 9.61149e-08
+S = 43, Put delta exact = -0.950548, Put delta diff = -0.950548, difference = 9.6115e-08
+S = 44, Call delta exact = 0.000927157, Call delta diff = 0.000927275, difference = 1.18172e-07
+S = 44, Put delta exact = -0.950302, Put delta diff = -0.950302, difference = 1.18172e-07
+S = 45, Call delta exact = 0.00124435, Call delta diff = 0.0012445, difference = 1.43343e-07
+S = 45, Put delta exact = -0.949985, Put delta diff = -0.949985, difference = 1.43343e-07
+S = 46, Call delta exact = 0.00164771, Call delta diff = 0.00164788, difference = 1.71667e-07
+S = 46, Put delta exact = -0.949582, Put delta diff = -0.949582, difference = 1.71667e-07
+S = 47, Call delta exact = 0.00215423, Call delta diff = 0.00215443, difference = 2.03115e-07
+S = 47, Put delta exact = -0.949075, Put delta diff = -0.949075, difference = 2.03115e-07
+S = 48, Call delta exact = 0.00278276, Call delta diff = 0.002783, difference = 2.37578e-07
+S = 48, Put delta exact = -0.948447, Put delta diff = -0.948446, difference = 2.37577e-07
+S = 49, Call delta exact = 0.00355398, Call delta diff = 0.00355426, difference = 2.74869e-07
+S = 49, Put delta exact = -0.947675, Put delta diff = -0.947675, difference = 2.74869e-07
+S = 50, Call delta exact = 0.00449025, Call delta diff = 0.00449057, difference = 3.14726e-07
+S = 50, Put delta exact = -0.946739, Put delta diff = -0.946739, difference = 3.14726e-07
+
+[ h = 0.01 ]
+Single-point calculation:
+Future call delta (exact) = 0.00449025, (divided diff) = 0.00449025, difference = 3.14725e-09
+Future put delta (exact) = -0.946739, (divided diff) = -0.946739, difference = 3.14725e-09
+Future call gamma (exact) = 0.00102664, (divided diff) = 0.00102664, difference = 2.15536e-10
+Future put gamma (exact) = 0.00102664, (divided diff) = 0.00102664, difference = 1.8556e-10
+
+Compute for a range of S:
+S = 10, Call delta exact = 2.25551e-19, Call delta diff = 2.25596e-19, difference smaller than threshold
+S = 10, Put delta exact = -0.951229, Put delta diff = -0.951229, difference smaller than threshold
+S = 11, Call delta exact = 6.18174e-18, Call delta diff = 6.18269e-18, difference smaller than threshold
+S = 11, Put delta exact = -0.951229, Put delta diff = -0.951229, difference smaller than threshold
+S = 12, Call delta exact = 1.12536e-16, Call delta diff = 1.12549e-16, difference smaller than threshold
+S = 12, Put delta exact = -0.951229, Put delta diff = -0.951229, difference smaller than threshold
+S = 13, Call delta exact = 1.46673e-15, Call delta diff = 1.46687e-15, difference smaller than threshold
+S = 13, Put delta exact = -0.951229, Put delta diff = -0.951229, difference smaller than threshold
+S = 14, Call delta exact = 1.44882e-14, Call delta diff = 1.44893e-14, difference smaller than threshold
+S = 14, Put delta exact = -0.951229, Put delta diff = -0.951229, difference smaller than threshold
+S = 15, Call delta exact = 1.1336e-13, Call delta diff = 1.13367e-13, difference smaller than threshold
+S = 15, Put delta exact = -0.951229, Put delta diff = -0.951229, difference smaller than threshold
+S = 16, Call delta exact = 7.27491e-13, Call delta diff = 7.27527e-13, difference smaller than threshold
+S = 16, Put delta exact = -0.951229, Put delta diff = -0.951229, difference smaller than threshold
+S = 17, Call delta exact = 3.93787e-12, Call delta diff = 3.93804e-12, difference smaller than threshold
+S = 17, Put delta exact = -0.951229, Put delta diff = -0.951229, difference smaller than threshold
+S = 18, Call delta exact = 1.83921e-11, Call delta diff = 1.83927e-11, difference smaller than threshold
+S = 18, Put delta exact = -0.951229, Put delta diff = -0.951229, difference smaller than threshold
+S = 19, Call delta exact = 7.55191e-11, Call delta diff = 7.55213e-11, difference smaller than threshold
+S = 19, Put delta exact = -0.951229, Put delta diff = -0.951229, difference smaller than threshold
+S = 20, Call delta exact = 2.76878e-10, Call delta diff = 2.76885e-10, difference smaller than threshold
+S = 20, Put delta exact = -0.951229, Put delta diff = -0.951229, difference smaller than threshold
+S = 21, Call delta exact = 9.18317e-10, Call delta diff = 9.18336e-10, difference smaller than threshold
+S = 21, Put delta exact = -0.951229, Put delta diff = -0.951229, difference smaller than threshold
+S = 22, Call delta exact = 2.78591e-09, Call delta diff = 2.78596e-09, difference smaller than threshold
+S = 22, Put delta exact = -0.951229, Put delta diff = -0.951229, difference smaller than threshold
+S = 23, Call delta exact = 7.80377e-09, Call delta diff = 7.80389e-09, difference smaller than threshold
+S = 23, Put delta exact = -0.951229, Put delta diff = -0.951229, difference smaller than threshold
+S = 24, Call delta exact = 2.0348e-08, Call delta diff = 2.03483e-08, difference smaller than threshold
+S = 24, Put delta exact = -0.951229, Put delta diff = -0.951229, difference smaller than threshold
+S = 25, Call delta exact = 4.97346e-08, Call delta diff = 4.97352e-08, difference smaller than threshold
+S = 25, Put delta exact = -0.951229, Put delta diff = -0.951229, difference smaller than threshold
+S = 26, Call delta exact = 1.14647e-07, Call delta diff = 1.14648e-07, difference = 1.14493e-12
+S = 26, Put delta exact = -0.951229, Put delta diff = -0.951229, difference = 1.06115e-12
+S = 27, Call delta exact = 2.50577e-07, Call delta diff = 2.50579e-07, difference = 2.18999e-12
+S = 27, Put delta exact = -0.951229, Put delta diff = -0.951229, difference = 2.39209e-12
+S = 28, Call delta exact = 5.21714e-07, Call delta diff = 5.21718e-07, difference = 4.0034e-12
+S = 28, Put delta exact = -0.951229, Put delta diff = -0.951229, difference = 3.55349e-12
+S = 29, Call delta exact = 1.03903e-06, Call delta diff = 1.03904e-06, difference = 7.02143e-12
+S = 29, Put delta exact = -0.951228, Put delta diff = -0.951228, difference = 6.22369e-12
+S = 30, Call delta exact = 1.98667e-06, Call delta diff = 1.98668e-06, difference = 1.18555e-11
+S = 30, Put delta exact = -0.951227, Put delta diff = -0.951227, difference = 1.11672e-11
+S = 31, Call delta exact = 3.65877e-06, Call delta diff = 3.65879e-06, difference = 1.93304e-11
+S = 31, Put delta exact = -0.951226, Put delta diff = -0.951226, difference = 1.88523e-11
+S = 32, Call delta exact = 6.5092e-06, Call delta diff = 6.50923e-06, difference = 3.05188e-11
+S = 32, Put delta exact = -0.951223, Put delta diff = -0.951223, difference = 3.00449e-11
+S = 33, Call delta exact = 1.1216e-05, Call delta diff = 1.1216e-05, difference = 4.67691e-11
+S = 33, Put delta exact = -0.951218, Put delta diff = -0.951218, difference = 4.71241e-11
+S = 34, Call delta exact = 1.87624e-05, Call delta diff = 1.87624e-05, difference = 6.97215e-11
+S = 34, Put delta exact = -0.951211, Put delta diff = -0.951211, difference = 6.98022e-11
+S = 35, Call delta exact = 3.05351e-05, Call delta diff = 3.05352e-05, difference = 1.01309e-10
+S = 35, Put delta exact = -0.951199, Put delta diff = -0.951199, difference = 1.01637e-10
+S = 36, Call delta exact = 4.84406e-05, Call delta diff = 4.84407e-05, difference = 1.43739e-10
+S = 36, Put delta exact = -0.951181, Put delta diff = -0.951181, difference = 1.43823e-10
+S = 37, Call delta exact = 7.50367e-05, Call delta diff = 7.50369e-05, difference = 1.99458e-10
+S = 37, Put delta exact = -0.951154, Put delta diff = -0.951154, difference = 1.9901e-10
+S = 38, Call delta exact = 0.00011368, Call delta diff = 0.00011368, difference = 2.71089e-10
+S = 38, Put delta exact = -0.951116, Put delta diff = -0.951116, difference = 2.71232e-10
+S = 39, Call delta exact = 0.000168682, Call delta diff = 0.000168682, difference = 3.61356e-10
+S = 39, Put delta exact = -0.951061, Put delta diff = -0.951061, difference = 3.61803e-10
+S = 40, Call delta exact = 0.000245471, Call delta diff = 0.000245472, difference = 4.72992e-10
+S = 40, Put delta exact = -0.950984, Put delta diff = -0.950984, difference = 4.72858e-10
+S = 41, Call delta exact = 0.000350761, Call delta diff = 0.000350761, difference = 6.08616e-10
+S = 41, Put delta exact = -0.950879, Put delta diff = -0.950879, difference = 6.08305e-10
+S = 42, Call delta exact = 0.000492699, Call delta diff = 0.0004927, difference = 7.70643e-10
+S = 42, Put delta exact = -0.950737, Put delta diff = -0.950737, difference = 7.70443e-10
+S = 43, Call delta exact = 0.000681019, Call delta diff = 0.00068102, difference = 9.61134e-10
+S = 43, Put delta exact = -0.950548, Put delta diff = -0.950548, difference = 9.61914e-10
+S = 44, Call delta exact = 0.000927157, Call delta diff = 0.000927158, difference = 1.1817e-09
+S = 44, Put delta exact = -0.950302, Put delta diff = -0.950302, difference = 1.18236e-09
+S = 45, Call delta exact = 0.00124435, Call delta diff = 0.00124435, difference = 1.4334e-09
+S = 45, Put delta exact = -0.949985, Put delta diff = -0.949985, difference = 1.43364e-09
+S = 46, Call delta exact = 0.00164771, Call delta diff = 0.00164771, difference = 1.71665e-09
+S = 46, Put delta exact = -0.949582, Put delta diff = -0.949582, difference = 1.71643e-09
+S = 47, Call delta exact = 0.00215423, Call delta diff = 0.00215423, difference = 2.03112e-09
+S = 47, Put delta exact = -0.949075, Put delta diff = -0.949075, difference = 2.03109e-09
+S = 48, Call delta exact = 0.00278276, Call delta diff = 0.00278276, difference = 2.37576e-09
+S = 48, Put delta exact = -0.948447, Put delta diff = -0.948447, difference = 2.37669e-09
+S = 49, Call delta exact = 0.00355398, Call delta diff = 0.00355398, difference = 2.74868e-09
+S = 49, Put delta exact = -0.947675, Put delta diff = -0.947675, difference = 2.74819e-09
+S = 50, Call delta exact = 0.00449025, Call delta diff = 0.00449025, difference = 3.14725e-09
+S = 50, Put delta exact = -0.946739, Put delta diff = -0.946739, difference = 3.14725e-09
+
+[ h = 0.001 ]
+Single-point calculation:
+Future call delta (exact) = 0.00449025, (divided diff) = 0.00449025, difference = 3.14803e-11
+Future put delta (exact) = -0.946739, (divided diff) = -0.946739, difference = 2.86807e-11
+Future call gamma (exact) = 0.00102664, (divided diff) = 0.00102664, difference = 4.07605e-10
+Future put gamma (exact) = 0.00102664, (divided diff) = 0.00102664, difference = 1.8556e-10
+
+Compute for a range of S:
+S = 10, Call delta exact = 2.25551e-19, Call delta diff = 2.25551e-19, difference smaller than threshold
+S = 10, Put delta exact = -0.951229, Put delta diff = -0.951229, difference smaller than threshold
+S = 11, Call delta exact = 6.18174e-18, Call delta diff = 6.18175e-18, difference smaller than threshold
+S = 11, Put delta exact = -0.951229, Put delta diff = -0.951229, difference smaller than threshold
+S = 12, Call delta exact = 1.12536e-16, Call delta diff = 1.12536e-16, difference smaller than threshold
+S = 12, Put delta exact = -0.951229, Put delta diff = -0.951229, difference smaller than threshold
+S = 13, Call delta exact = 1.46673e-15, Call delta diff = 1.46673e-15, difference smaller than threshold
+S = 13, Put delta exact = -0.951229, Put delta diff = -0.951229, difference = 6.49714e-12
+S = 14, Call delta exact = 1.44882e-14, Call delta diff = 1.44882e-14, difference smaller than threshold
+S = 14, Put delta exact = -0.951229, Put delta diff = -0.951229, difference smaller than threshold
+S = 15, Call delta exact = 1.1336e-13, Call delta diff = 1.1336e-13, difference smaller than threshold
+S = 15, Put delta exact = -0.951229, Put delta diff = -0.951229, difference smaller than threshold
+S = 16, Call delta exact = 7.27491e-13, Call delta diff = 7.27491e-13, difference smaller than threshold
+S = 16, Put delta exact = -0.951229, Put delta diff = -0.951229, difference = 1.33438e-12
+S = 17, Call delta exact = 3.93787e-12, Call delta diff = 3.93788e-12, difference smaller than threshold
+S = 17, Put delta exact = -0.951229, Put delta diff = -0.951229, difference = 2.56073e-12
+S = 18, Call delta exact = 1.83921e-11, Call delta diff = 1.83921e-11, difference smaller than threshold
+S = 18, Put delta exact = -0.951229, Put delta diff = -0.951229, difference = 2.31726e-12
+S = 19, Call delta exact = 7.55191e-11, Call delta diff = 7.55192e-11, difference smaller than threshold
+S = 19, Put delta exact = -0.951229, Put delta diff = -0.951229, difference = 2.03371e-12
+S = 20, Call delta exact = 2.76878e-10, Call delta diff = 2.76878e-10, difference smaller than threshold
+S = 20, Put delta exact = -0.951229, Put delta diff = -0.951229, difference = 6.73228e-12
+S = 21, Call delta exact = 9.18317e-10, Call delta diff = 9.18317e-10, difference smaller than threshold
+S = 21, Put delta exact = -0.951229, Put delta diff = -0.951229, difference = 4.78162e-12
+S = 22, Call delta exact = 2.78591e-09, Call delta diff = 2.78591e-09, difference smaller than threshold
+S = 22, Put delta exact = -0.951229, Put delta diff = -0.951229, difference = 1.18949e-12
+S = 23, Call delta exact = 7.80377e-09, Call delta diff = 7.80377e-09, difference smaller than threshold
+S = 23, Put delta exact = -0.951229, Put delta diff = -0.951229, difference = 2.61968e-12
+S = 24, Call delta exact = 2.0348e-08, Call delta diff = 2.0348e-08, difference smaller than threshold
+S = 24, Put delta exact = -0.951229, Put delta diff = -0.951229, difference = 5.75928e-12
+S = 25, Call delta exact = 4.97346e-08, Call delta diff = 4.97346e-08, difference smaller than threshold
+S = 25, Put delta exact = -0.951229, Put delta diff = -0.951229, difference = 2.77589e-12
+S = 26, Call delta exact = 1.14647e-07, Call delta diff = 1.14647e-07, difference smaller than threshold
+S = 26, Put delta exact = -0.951229, Put delta diff = -0.951229, difference = 1.07048e-12
+S = 27, Call delta exact = 2.50577e-07, Call delta diff = 2.50577e-07, difference smaller than threshold
+S = 27, Put delta exact = -0.951229, Put delta diff = -0.951229, difference = 4.71334e-12
+S = 28, Call delta exact = 5.21714e-07, Call delta diff = 5.21714e-07, difference smaller than threshold
+S = 28, Put delta exact = -0.951229, Put delta diff = -0.951229, difference = 1.42186e-12
+S = 29, Call delta exact = 1.03903e-06, Call delta diff = 1.03903e-06, difference smaller than threshold
+S = 29, Put delta exact = -0.951228, Put delta diff = -0.951228, difference smaller than threshold
+S = 30, Call delta exact = 1.98667e-06, Call delta diff = 1.98667e-06, difference smaller than threshold
+S = 30, Put delta exact = -0.951227, Put delta diff = -0.951227, difference = 3.75422e-12
+S = 31, Call delta exact = 3.65877e-06, Call delta diff = 3.65877e-06, difference smaller than threshold
+S = 31, Put delta exact = -0.951226, Put delta diff = -0.951226, difference = 3.17457e-12
+S = 32, Call delta exact = 6.5092e-06, Call delta diff = 6.5092e-06, difference smaller than threshold
+S = 32, Put delta exact = -0.951223, Put delta diff = -0.951223, difference = 4.46532e-12
+S = 33, Call delta exact = 1.1216e-05, Call delta diff = 1.1216e-05, difference smaller than threshold
+S = 33, Put delta exact = -0.951218, Put delta diff = -0.951218, difference = 6.87717e-12
+S = 34, Call delta exact = 1.87624e-05, Call delta diff = 1.87624e-05, difference smaller than threshold
+S = 34, Put delta exact = -0.951211, Put delta diff = -0.951211, difference = 8.69549e-12
+S = 35, Call delta exact = 3.05351e-05, Call delta diff = 3.05351e-05, difference = 1.01296e-12
+S = 35, Put delta exact = -0.951199, Put delta diff = -0.951199, difference = 2.51643e-12
+S = 36, Call delta exact = 4.84406e-05, Call delta diff = 4.84406e-05, difference = 1.43726e-12
+S = 36, Put delta exact = -0.951181, Put delta diff = -0.951181, difference = 3.84637e-12
+S = 37, Call delta exact = 7.50367e-05, Call delta diff = 7.50367e-05, difference = 1.99806e-12
+S = 37, Put delta exact = -0.951154, Put delta diff = -0.951154, difference = 4.32154e-12
+S = 38, Call delta exact = 0.00011368, Call delta diff = 0.00011368, difference = 2.70507e-12
+S = 38, Put delta exact = -0.951116, Put delta diff = -0.951116, difference = 9.75187e-12
+S = 39, Call delta exact = 0.000168682, Call delta diff = 0.000168682, difference = 3.60545e-12
+S = 39, Put delta exact = -0.951061, Put delta diff = -0.951061, difference = 3.33378e-12
+S = 40, Call delta exact = 0.000245471, Call delta diff = 0.000245471, difference = 4.72921e-12
+S = 40, Put delta exact = -0.950984, Put delta diff = -0.950984, difference = 7.45215e-12
+S = 41, Call delta exact = 0.000350761, Call delta diff = 0.000350761, difference = 6.10244e-12
+S = 41, Put delta exact = -0.950879, Put delta diff = -0.950879, difference = 1.85546e-11
+S = 42, Call delta exact = 0.000492699, Call delta diff = 0.000492699, difference = 7.70601e-12
+S = 42, Put delta exact = -0.950737, Put delta diff = -0.950737, difference = 8.38629e-12
+S = 43, Call delta exact = 0.000681019, Call delta diff = 0.000681019, difference = 9.61195e-12
+S = 43, Put delta exact = -0.950548, Put delta diff = -0.950548, difference = 9.4319e-12
+S = 44, Call delta exact = 0.000927157, Call delta diff = 0.000927157, difference = 1.18126e-11
+S = 44, Put delta exact = -0.950302, Put delta diff = -0.950302, difference = 1.92063e-11
+S = 45, Call delta exact = 0.00124435, Call delta diff = 0.00124435, difference = 1.43924e-11
+S = 45, Put delta exact = -0.949985, Put delta diff = -0.949985, difference = 2.24973e-11
+S = 46, Call delta exact = 0.00164771, Call delta diff = 0.00164771, difference = 1.70893e-11
+S = 46, Put delta exact = -0.949582, Put delta diff = -0.949582, difference = 2.03613e-11
+S = 47, Call delta exact = 0.00215423, Call delta diff = 0.00215423, difference = 2.04085e-11
+S = 47, Put delta exact = -0.949075, Put delta diff = -0.949075, difference = 2.13213e-11
+S = 48, Call delta exact = 0.00278276, Call delta diff = 0.00278276, difference = 2.38077e-11
+S = 48, Put delta exact = -0.948447, Put delta diff = -0.948447, difference = 2.90572e-11
+S = 49, Call delta exact = 0.00355398, Call delta diff = 0.00355398, difference = 2.74826e-11
+S = 49, Put delta exact = -0.947675, Put delta diff = -0.947675, difference = 2.89435e-11
+S = 50, Call delta exact = 0.00449025, Call delta diff = 0.00449025, difference = 3.14803e-11
+S = 50, Put delta exact = -0.946739, Put delta diff = -0.946739, difference = 2.86807e-11
+
+End of outputA.txt

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\MyCode\\CPP\\Level9HW\\9.E\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0FE6AF96-540F-4DC0-97FE-6781D9465268}|9E_VS\\9E_VS.vcxproj|D:\\MyCode\\CPP\\Level9HW\\9.E\\9E_VS\\EuroOptionExcel.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0FE6AF96-540F-4DC0-97FE-6781D9465268}|9E_VS\\9E_VS.vcxproj|solutionrelative:9E_VS\\EuroOptionExcel.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EuroOptionExcel.cpp",
+              "DocumentMoniker": "D:\\MyCode\\CPP\\Level9HW\\9.E\\9E_VS\\EuroOptionExcel.cpp",
+              "RelativeDocumentMoniker": "9E_VS\\EuroOptionExcel.cpp",
+              "ToolTip": "D:\\MyCode\\CPP\\Level9HW\\9.E\\9E_VS\\EuroOptionExcel.cpp",
+              "RelativeToolTip": "9E_VS\\EuroOptionExcel.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-18T07:19:25.808Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
